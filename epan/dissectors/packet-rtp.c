@@ -603,7 +603,7 @@ static const value_string rtp_payload_type_vals[] =
 /* 33 */    { PT_MP2T,          "MPEG-II transport streams"},
 /* 34 */    { PT_H263,          "ITU-T H.263" },
 /* 35-71     Unassigned  */
-/* 35 */    { 35,               "Unassigned" },
+/* 35 */    { 35,               "H.264" },
 /* 36 */    { PT_H263_36,       "ITU-T H.263" },
 /* 37 */    { 37,               "Unassigned" },
 /* 38 */    { 38,               "Unassigned" },
@@ -744,7 +744,7 @@ static const value_string rtp_payload_type_short_vals[] =
     { PT_MP2T,      "MPEG-II streams"},
     { PT_H263,      "h263" },
 /* 35-71     Unassigned  */
-    { 35,               "Unassigned" },
+    { 35,               "h264" },
     { PT_H263_36,      "h263" },
     { 37,               "Unassigned" },
     { 38,               "Unassigned" },
