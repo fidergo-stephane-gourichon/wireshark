@@ -2713,12 +2713,12 @@ dissect_h264_name(tvbuff_t *tvb _U_, packet_info *pinfo, proto_tree *tree, void*
 
 
 static void range_delete_h264_rtp_pt_callback(guint32 rtp_pt) {
-    if (rtp_pt >= 96 && rtp_pt <= 127)
+    //if (rtp_pt >= 96 && rtp_pt <= 127) // Allow all payload types for H.264, ref. https://www.wireshark.org/lists/wireshark-users/201203/msg00015.html
         dissector_delete_uint("rtp.pt", rtp_pt, h264_handle);
 }
 
 static void range_add_h264_rtp_pt_callback(guint32 rtp_pt) {
-    if (rtp_pt >= 96 && rtp_pt <= 127)
+    //if (rtp_pt >= 96 && rtp_pt <= 127) // Allow all payload types for H.264, ref. https://www.wireshark.org/lists/wireshark-users/201203/msg00015.html
         dissector_add_uint("rtp.pt", rtp_pt, h264_handle);
 }
 
