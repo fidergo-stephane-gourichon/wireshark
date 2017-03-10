@@ -64,6 +64,7 @@ extern "C" {
 #define PT_MPV           32  /* RFC 2250 */
 #define PT_MP2T          33  /* RFC 2250 */
 #define PT_H263          34  /* from Chunrong Zhu of Intel; see the Web page */
+#define PT_H263_36       36  /* from Chunrong Zhu of Intel; see the Web page */
 
 /* Added to by Alex Lindberg to cover port ranges 96-127 - Dynamic RTP
    Some of these ports are used by Avaya for Modem and FAX support */

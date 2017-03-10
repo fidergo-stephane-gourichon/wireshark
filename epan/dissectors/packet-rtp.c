@@ -604,7 +604,7 @@ static const value_string rtp_payload_type_vals[] =
 /* 34 */    { PT_H263,          "ITU-T H.263" },
 /* 35-71     Unassigned  */
 /* 35 */    { 35,               "Unassigned" },
-/* 36 */    { 36,               "Unassigned" },
+/* 36 */    { PT_H263_36,       "ITU-T H.263" },
 /* 37 */    { 37,               "Unassigned" },
 /* 38 */    { 38,               "Unassigned" },
 /* 39 */    { 39,               "Unassigned" },
@@ -745,7 +745,7 @@ static const value_string rtp_payload_type_short_vals[] =
     { PT_H263,      "h263" },
 /* 35-71     Unassigned  */
     { 35,               "Unassigned" },
-    { 36,               "Unassigned" },
+    { PT_H263_36,      "h263" },
     { 37,               "Unassigned" },
     { 38,               "Unassigned" },
     { 39,               "Unassigned" },
